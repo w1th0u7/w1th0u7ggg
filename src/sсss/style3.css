@@ -1,0 +1,148 @@
+#background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.stretch {
+  width: 103%;
+}
+
+body {
+  font-family: "TT Travels";
+  max-width: 1600px;
+  max-height: 2700px;
+  overflow-y: scroll;
+}
+
+.background {
+  position: absolute;
+}
+.background img {
+  width: 100%;
+  height: 87%;
+  background-size: 100%;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.main-section__header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.main-section__header img {
+  width: 300px;
+  height: 250px;
+}
+.main-section__nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 99px;
+  align-items: center;
+}
+
+.nav-menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-menu__list-item {
+  margin-right: 90px;
+  font-size: 20px;
+  z-index: 1;
+  width: auto;
+  color: #a4b7e0;
+}
+.nav-menu:last-child {
+  margin-right: 0px;
+}
+.nav-menu__list-items {
+  display: flex;
+  position: absolute;
+  color: #A4B7E0;
+  font-size: 20px;
+  right: 400px;
+}
+.nav-menu a {
+  color: #A4B7E0;
+  text-decoration: none;
+}
+
+._container {
+  padding: 16px;
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 300px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #a4b7e0;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 103%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  text-decoration: none;
+  color: #a4b7e0;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-left: 320px;
+}
+
+label {
+  color: #A4B7E0;
+}
+
+h1 {
+  color: #A4B7E0;
+}
+
+p {
+  color: #A4B7E0;
+}/*# sourceMappingURL=style3.css.map */

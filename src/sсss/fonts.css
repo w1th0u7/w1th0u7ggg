@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'TT Travels';
+    src: local('TT Travels Thin Italic'), local('TT-Travels-Thin-Italic'),
+        url('TTTravels-ThinItalic.woff2') format('woff2'),
+        url('TTTravels-ThinItalic.woff') format('woff'),
+        url('TTTravels-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}

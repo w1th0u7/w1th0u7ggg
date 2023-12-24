@@ -1,0 +1,376 @@
+$turquoise: #586071;
+
+#slide {
+    width: 100%;
+    height: 100%;
+    left: -200px;
+    background: #BFC0C0;
+    position: absolute;
+    transition: all .35s ease-Out;
+    bottom: 0;
+  }
+
+a {
+    text-decoration: none;
+    color: #a4b7e0;
+}
+
+#background {
+    width: 99%;
+    height: 93%;
+    position: absolute;
+    
+    z-index: -1;
+}
+
+.stretch {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+body {
+    font-family: "TT Travels";
+    max-width: 1600px;
+    max-height: 2817px;
+    overflow-y: scroll;
+}
+
+.background {
+    position: absolute;
+    img {
+        width: 100%;
+        height: 87%;
+        background-size: 100%;
+    }
+
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    padding: 40px;
+}
+.main-section {
+    &__header {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        img {
+            width: 300px;
+            height: 250px;
+        }
+      
+    }
+    &__nav-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 99px;
+        align-items: center
+    }
+    
+
+}
+
+.nav-menu {
+    &__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    &__list-item {
+        margin-right: 90px;
+        font-size: 20px;
+        z-index: 1;
+        width: auto;
+        color: #a4b7e0;
+        ;
+        
+    }
+    &:last-child{
+        margin-right: 0px;
+    }
+
+    &__list-items {
+        display: flex ;
+        position: absolute;
+        color: #A4B7E0;
+        font-size: 20px;
+        right: 400px;
+    }
+    
+    a {
+        color: #A4B7E0;
+        text-decoration: none;
+    }
+}
+
+
+
+.left-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 450px;
+    width: 550px;
+    margin: 10px;
+    img {
+        display: flex;
+        position: absolute;
+        left: 12px;
+        top: 200px;
+        right: 200px;
+        height: 50px;
+        width: 50px;
+
+    }
+    &__text {
+        flex: 1;
+        position: absolute;
+        left: 90px;
+        bottom: 220px;
+        color: #ffffff;
+    }
+    &__iconsVK {
+        display: flex;
+        position: absolute;
+        left: 50px;
+        top: 140px;
+        right: 100px;
+        height: 200px;
+        width: 200px;
+    
+    }
+    &__iconsINST {
+        display: flex;
+        position: absolute;
+        left: 50px;
+        top: 210px;
+        right: 100px;
+}
+
+    &__VK{
+        color: #A4B7E0;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        left: 120px;
+        top: 356px;
+        right: 200px;
+        width: 100px;
+
+    }
+    &__INST{
+        color: #A4B7E0;
+        display: flex;
+        position: absolute;
+        flex-direction: row;
+        left: 120px;
+        top: 420px;
+        right: 200px;
+        width: 100px;
+        
+    }
+
+    &__main-section {
+        color: #A4B7E0;
+        display: flex;
+        position: absolute;
+
+        left: 720px;
+        font-size: 100px;
+    }
+
+    &__text-section {
+        color: #A4B7E0;
+        display:inline-flex;
+        position: relative;
+        font-size: 70px;
+        left: 3rem;
+    }
+
+    &__text-sections {
+        color: #A4B7E0;
+        display: inline-block;
+        position: relative;
+        right: 24.5rem;
+        top: 120px;
+        font-size: 100px;
+        width: 700px;
+        height: 103px;
+    }
+
+    &__text-sectionss {
+        position: absolute;
+        display: inline-flex;
+        color:#ffffff;
+        font-size: 30px;
+        top: 230px;
+        width: 500px;
+        height: 31px;
+        right: 29rem;
+    }
+    &__text-sectionsss {
+        position: absolute;
+        display: inline-flex;
+        color:#ffffff;
+        font-size: 30px;
+        top: 17rem;
+        width: 500px;
+        height: 50px;
+    }
+
+    .buttons {
+        display: flex;
+        &__main-btn {
+            position: absolute;
+            margin-right: 32px;
+            width: 200px;
+            height: 60px;
+            top: 25rem;
+            right: 55rem;
+            background-color: #586071;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            font-size: 18px;
+            border: none;
+            color: #A4B7E0;
+        }
+        &__second-btn {
+            position: absolute;
+            margin-right: 32px;
+            width: 200px;
+            height: 60px;
+            top: 25rem;
+            right: 17rem;
+            background-color: #58607113;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            border: 3px solid #464D5A;
+            background: rgba(0, 0, 0, 0.596);
+            font-size: 18px;
+            color: #A4B7E0;
+            
+        }
+        &__three-btn {
+            position: absolute;
+            margin-right: 32px;
+            width: 200px;
+            height: 60px;
+            top: 25rem;
+            right: 55rem;
+            border-radius: 20px;
+            border: none;
+            font-size: 18px;
+            color: #A4B7E0;
+            border-radius: 30px;
+            background: #FFFCFC;
+            box-shadow: 0px 4px 250px 0px #0A2071, 0px 4px 160px 0px rgba(10, 32, 113, 0.50), 0px 4px 80px 0px rgba(10, 32, 113, 0.50), 0px 4px 40px 0px rgba(10, 32, 113, 0.50), 0px 4px 20px 0px rgba(10, 32, 113, 0.50), 0px 4px 10px 0px rgba(10, 32, 113, 0.50);
+        }
+    }
+}
+
+
+
+.right-wrapper {
+    display: flex;
+    position: relative;
+    max-width: 8em; 
+    min-height: 2em;
+    margin-left: auto;
+    margin-right: 0;
+    
+    &__text {
+        display: flex;
+        position: absolute; 
+        color: #A4B7E0;
+    }
+
+    &__number{
+        display: flex;
+        position: absolute;
+        top: 40px;
+        color: #ffffff;
+        text-decoration: none ;
+    }
+
+
+}
+
+.neon {
+    &__hr{
+        position: absolute;
+        bottom: 60px;
+        width: 1900px;
+        height: 2px;
+        box-shadow: 0 0 50px 60px rgba(255, 255, 255, 0.932);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.96) 35.24%, rgba(255, 255, 255, 0.911) 100%, rgba(255, 255, 255, 0.801) 100%);
+    }
+}
+
+.footer-wrapper {
+    &__main-section {
+        position: absolute;
+        top: 900px;
+        text-align: center;
+        color: #A4B7E0;
+        font-style: normal;
+        margin-bottom: 50px;
+        right: 100px;
+    }
+    &__information {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 370px;
+        text-align: center;
+        line-height: 20px;
+        right: 50rem;
+        top: 70rem;
+    
+    }
+
+    &__information2 {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 370px;
+        text-align: center;
+        line-height: 20px;
+        right: 50rem;
+        top: 70rem;
+        right: 10rem;
+    }
+
+    &__nav-section {
+        margin-right: 0px;
+        position: relative;
+        top: 270px;        
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+}
+
+@font-face {
+    font-family: 'TT Travels';
+    src: local('TT Travels Thin Italic'), local('TT-Travels-Thin-Italic'),
+        url('/practic/project_1/src/fonts/TTTravels-ThinItalic.woff2') format('woff2'),
+        url('/practic/project_1/src/fonts/TTTravels-ThinItalic.woff') format('woff'),
+        url('/practic/project_1/src/fonts/TTTravels-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+
+
