@@ -371,6 +371,55 @@ body {
     font-style: italic;
 }
 
+.registerbtn { 
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 103%;
+    opacity: 0.9;
+    position: absolute;
+    margin-right: 32px;
+    width: 200px;
+    height: 60px;
+    top: 39rem;
+    right: 72rem;
+    background-color: #586071;
+    box-shadow: 0px 4px 200px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 18px;
+    border: 1;
+    color: #A4B7E0;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+
+
+  .registerbtn_btn {
+    position: absolute;
+    margin-right: 32px;
+    width: 200px;
+    height: 60px;
+    top: 39rem;
+    right: 36rem;
+    background-color: #58607113;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 3px solid #464D5A;
+    background: rgba(0, 0, 0, 0.596);
+    font-size: 18px;
+    color: #A4B7E0;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    padding: 16px 20px;
+  }
+
+  .registerbtn_btn:hover {
+    opacity:1;
+  }
 
 
 
